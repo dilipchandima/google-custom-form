@@ -20,10 +20,10 @@
     $('#input-form').one('submit',function(){
         var inputq1 = encodeURIComponent($('#input-q1').val());
         var inputq2 = encodeURIComponent($('#input-q2').val());
-        var q1ID = "entry.737491078";
-        var q2ID = "entry.1782436478";
+        var q1ID = "entry_1503171548";
+        var q2ID = "entry_1957824128";
 
-        var baseURL = 'https://docs.google.com/forms/d/1s0r2Cl5rDGMqD8u08BgUO7lvDrvO9Dr1nm9MsrWxOxQ/formResponse?';
+        var baseURL = 'https://docs.google.com/forms/d/1z2pmrZwxx0J6qFOQmYgFEQslMnCD3PNaxyEsi2wYIW4/formResponse?';
         var submitRef = '&submit=Submit';
         var submitURL = (baseURL + q1ID + "=" + inputq1 + "&" + q2ID + "=" + inputq2 + submitRef);
         console.log(submitURL);
